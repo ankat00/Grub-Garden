@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="The times of boring meals and fast food are over! Here You will find
+    healthy day-to-day recipes, exciting inspirations & tipps to bring joy
+    into Your kitchen. Explore our posts, get a personalized meal plan or sign up for one of our cooking classes!"
+    />
+
+    <link rel="icon" href="img/logo/favicon.png" />
+    <link rel="apple-touch-icon" href="img/logo/favicon-apple-touch.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>Grub Garden - Cook Healthy Everyday!</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="newsletter-cta">
+        <a class="newsletter-cta-link" href="#"
+          >Keep cooking with daily new recipes and kitchen tipps delivered to
+          your inbox!</a
+        >
+      </div>
+
+      <header class="meta-nav grid grid--3-cols">
+        <div class="overlay-btn-box">
+          <button class="btn menu-close btn-switch">
+            <img
+              class="icon-meta-nav"
+              src="icons/icon-menu-close.svg"
+              alt="Icon close menu"
+            />
+          </button>
+
+          <button class="btn menu-open">
+            <img
+              class="icon ic-meta-nav"
+              src="icons/icon-menu-open.svg"
+              alt="Icon open menu"
+            />
+          </button>
+        </div>
+
+        <a class="logo-link" href="#"
+          ><img class="logo" src="img/logo/logo.png" alt="Grub Garden Logo"
+        /></a>
+
+        <div class="meta-nav-box">
+          <div class="search-field">
+            <input class="search-input-field" type="search" />
+            <button class="btn btn-meta-nav">
+              <img
+                class="icon ic-search"
+                src="icons/icon-search.svg"
+                alt="Icon search"
+              />
+            </button>
+          </div>
+
+          <button class="btn btn-meta-nav">
+            <img
+              class="icon ic-profile"
+              src="icons/icon-profil.svg"
+              alt="Icon profile"
+            />
+          </button>
+        </div>
+      </header>
+
+      <!-- MAIN NAV OVERLAY -->
+      <div class="main-nav-overlay grid grid--4-cols">
+        <!-- COL 1 -->
+        <div class="main-nav col-1">
+          <nav class="main-nav">
+            <h3 class="heading-tertiary">Diets</h3>
+            <ul class="main-nav-list">
+              <li><a class="main-nav-link" href="#">Vegetarian</a></li>
+              <li><a class="main-nav-link" href="#">Vegan</a></li>
+              <li><a class="main-nav-link" href="#">Gluten-Free</a></li>
+              <li><a class="main-nav-link" href="#">Lactose-Free</a></li>
+              <li><a class="main-nav-link" href="#">Low-Carb</a></li>
+              <li><a class="main-nav-link" href="#">Pescatarian</a></li>
+              <li><a class="main-nav-link" href="#">Keto</a></li>
+              <li><a class="main-nav-link" href="#">Kid-friendly</a></li>
+              <br />
+              <br />
+              <li>
+                <a class="main-nav-link" href="#">What makes a healthy diet?</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#">The Way We Eat</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#">Trends Go's And No's</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#">Food History</a>
+              </li>
+              <li><a class="link" href="#">More ...</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- COL 2 -->
+        <div class="main-nav col-2">
+          <nav class="main-nav">
+            <h3 class="heading-tertiary">Meals</h3>
+            <ul class="main-nav-list">
+              <li><a class="main-nav-link" href="#">Quick & Easy</a></li>
+              <li><a class="main-nav-link" href="#">Breakfast</a></li>
+              <li><a class="main-nav-link" href="#">Lunch</a></li>
+              <li><a class="main-nav-link" href="#">Dinner</a></li>
+              <li><a class="main-nav-link" href="#">Healthy Snacks</a></li>
+              <li><a class="main-nav-link" href="#">Deserts</a></li>
+              <li><a class="link" href="#">More ...</a></li>
+            </ul>
+          </nav>
+
+          <div class="nav-cta-box">
+            <h3 class="heading-tertiary">Out of ideas?</h3>
+            <p class="nav-cta-text">
+              Suscribe today to your
+              <span><a href="#">weekly meal plan</a></span
+              ><span class="hide"
+                >with personalized healthy & delicious recipes!</span
+              >
+            </p>
+          </div>
+        </div>
+
+        <!-- COL 3 -->
+        <div class="main-nav col-3">
+          <nav class="main-nav">
+            <h3 class="heading-tertiary">Cook By Culture</h3>
+            <ul class="main-nav-list">
+              <li><a class="main-nav-link" href="#">French</a></li>
+              <li><a class="main-nav-link" href="#">Oriental</a></li>
+              <li><a class="main-nav-link" href="#">Japanese</a></li>
+              <li><a class="main-nav-link" href="#">Chinese</a></li>
+              <li><a class="main-nav-link" href="#">Vietnamese</a></li>
+              <li><a class="main-nav-link" href="#">Thai</a></li>
+              <li><a class="link" href="#">More ...</a></li>
+            </ul>
+          </nav>
+
+          <nav class="main-nav">
+            <h3 class="heading-tertiary">Kitchen Hacks</h3>
+            <ul class="main-nav-list">
+              <li>
+                <a class="main-nav-link" href="#">Local & Organic Shopping</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#">Spices Every Kitchen Needs</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#">Food Preserving & Storage</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#">Cleaning & Decluttering</a>
+              </li>
+              <li><a class="link" href="#">More ...</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- COL 4 -->
+        <div class="main-nav col-4">
+          <figure class="main-nav-img">
+            <img
+              src="img/cooking-class.jpg"
+              alt="Smiling woman cutting
+            vegetables"
+            />
+          </figure>
+          <h3 class="heading-tertiary">Excited To Learn More?</h3>
+          <p class="main-nav-text">
+            Unlock new skills with our online cooking classes!
+            <span
+              >>We offer courses from beginning level to advanced, all led by a
+              first class chef!</span
+            >
+          </p>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li>
+                <a class="main-nav-link" href="#">Fast & Healthy Cuisine</a>
+              </li>
+              <li><a class="main-nav-link" href="#">Barbecue Masters</a></li>
+              <li>
+                <a class="main-nav-link" href="#">Cooking With Your Kids</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#">Tasty Pastry Delights</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#">Bring Asia To Your Kitchen</a>
+              </li>
+              <li><a class="link" href="#">More ...</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <nav class="legal-nav">
+          <ul class="legal-nav-list">
+            <li><a class="legal-link" href="#">Legal</a></li>
+            <li><p>&verbar;</p></li>
+            <li><a class="legal-link" href="#">Privacy & Terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- SECTION HERO -->
+    <section class="section-hero">
+      <div class="container grid grid--3-cols">
+        <div class="card">
+          <figure class="card-image">
+            <img src="img/hero/food-bowls.jpg" alt="Salads and Bowls of food" />
+          </figure>
+          <div class="card-title-box">
+            <p class="card-title">Salads & Bowls</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <figure class="card-image">
+            <img
+              src="img/hero/summer-drink.jpg"
+              alt="Cold drink with watermelon and mint"
+            />
+          </figure>
+          <div class="card-title-box">
+            <p class="card-title">Summer Drinks</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <figure class="card-image">
+            <img src="img/hero/preserving.jpg" alt="Food preserving Jars" />
+          </figure>
+          <div class="card-title-box">
+            <p class="card-title">Food Preserving</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION INTRO -->
+    <section class="section-intro">
+      <div class="intro-box">
+        <h1 class="heading-primary"><span>Welcome</span> to Grub Garden!</h1>
+        <p class="intro-text">
+          The times of boring meals and fast food are over! Here You will find
+          healthy day-to-day recipes, exciting inspirations & tipps to bring joy
+          into Your kitchen. Sounds interesting?
+          <br />
+          <span>Subscribe to our free newsletter & start cooking today!</span>
+        </p>
+
+        <form class="intro-cta-box">
+          <label for="email">Your Email Address:</label>
+          <input
+            id="email"
+            class="intro-cta"
+            type="email"
+            required
+            autocomplete="email"
+          />
+          <button class="btn btn-cta">Subscribe</button>
+        </form>
+        <p class="intro-legal">
+          By signing up, you agree to our <a href="#">Terms of Service</a> and
+          <a href="#">Privacy Policy</a>.
+        </p>
+      </div>
+      <img
+        class="illustration"
+        src="img/illustration.png"
+        alt="Illustration of kitchen supplies"
+      />
+    </section>
+
+    <!-- SECTION LATEST -->
+    <section class="section-latest container">
+      <h2 class="heading-secondary">Latest Posts</h2>
+      <div class="grid grid--2-cols">
+        <figure class="latest-img">
+          <img
+            src="img/different-foods.jpg"
+            alt="Different foods assembeled on plate
+          "
+          />
+        </figure>
+
+        <div class="latest-post-box">
+          <!-- Post 1 -->
+          <div class="post p-1">
+            <div class="post-text-box">
+              <p class="post-date">07 Sep 2021</p>
+              <h4 class="heading-quart">Everything About Preserving</h4>
+              <p class="post-pv">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque quae in eum ab cupiditate quos corporis adipisci
+                veritatis illo.
+              </p>
+              <a class="link" href="#">Read article</a>
+            </div>
+            <figure class="post-img">
+              <img src="img/pickled-food.jpg" alt="Pickeled vegetable" />
+            </figure>
+          </div>
+
+          <!-- Post 2 -->
+          <div class="post p-2">
+            <div class="post-text-box">
+              <p class="post-date">07 Sep 2021</p>
+              <h4 class="heading-quart">A Fresh Start In The Day</h4>
+              <p class="post-pv">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque quae in eum ab cupiditate quos corporis adipisci
+                veritatis illo.
+              </p>
+              <a class="link" href="#">Read article</a>
+            </div>
+            <figure class="post-img">
+              <img
+                src="img/breakfast.jpg"
+                alt="Breakfast cereal and coffee on table with magazine"
+              />
+            </figure>
+          </div>
+
+          <!-- Post 3 -->
+          <div class="post p-3">
+            <div class="post-text-box">
+              <p class="post-date">07 Sep 2021</p>
+              <h4 class="heading-quart">Grow Your Own Organic Food!</h4>
+              <p class="post-pv">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque quae in eum ab cupiditate quos corporis adipisci
+                veritatis illo.
+              </p>
+              <a class="link" href="#">Read article</a>
+            </div>
+            <figure class="post-img">
+              <img src="img/vegetables.jpg" alt="Different vegetables" />
+            </figure>
+          </div>
+          <a class="link link-bigger txt-right" href="#">See more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: TOP CATEGORIES -->
+    <aside class="section-categories container">
+      <div class="category-box">
+        <p class="category cat-1">Vegetarian</p>
+        <p class="category cat-2">Bowls</p>
+        <p class="category cat-3">Thai</p>
+        <p class="category cat-4">Fruity</p>
+        <p class="category cat-5">Deserts</p>
+      </div>
+    </aside>
+
+    <!-- SECTION RECIPES -->
+    <section class="section-recipes">
+      <div class="container grid grid--3-cols">
+        <h2 class="heading-secondary mobile-fix">Popular Recipes</h2>
+        <!-- B1 - Search Box -->
+        <div class="recipes-search-box">
+          <h2 class="heading-secondary">Popular Recipes</h2>
+          <div>
+            <div class="recipes-search">
+              <input class="recipes-search-field" type="search" />
+              <button class="btn btn-meta-nav">
+                <img
+                  class="icon ic-search"
+                  src="icons/icon-search.svg"
+                  alt="Icon search"
+                />
+              </button>
+            </div>
+            <div class="recipes-tags">
+              <p class="tag-heading">Popular:</p>
+              <p class="tag">Vegan</p>
+              <p class="tag">Salmon</p>
+              <p class="tag">Gluten-free</p>
+              <p class="tag">Strawberries</p>
+              <p class="tag">Easy</p>
+              <p class="tag">Indian</p>
+              <p class="tag">Kids</p>
+              <p class="tag">Salad</p>
+              <p class="tag">Summer</p>
+              <p class="tag">Pickeled</p>
+              <p class="tag">Pasta</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- B2 -->
+        <div class="recipe-box-full">
+          <figure class="recipe-img">
+            <img src="img/recipes/tartes.jpg" alt="Tarts with fruit toppings" />
+          </figure>
+          <div class="recipe-full-title">
+            <p>Vegan Lemon Tartelettes</p>
+          </div>
+        </div>
+
+        <!-- B3  -->
+        <div class="recipe-box-full">
+          <figure class="recipe-img">
+            <img
+              src="img/recipes/Shakshuka.jpg"
+              alt="Pan of persian shakshuka"
+            />
+          </figure>
+          <div class="recipe-full-title">
+            <p>Persian Shakshuka</p>
+          </div>
+        </div>
+
+        <!-- B4 -->
+        <div class="recipe-box-full">
+          <figure class="recipe-img">
+            <img src="img/recipes/salad.jpg" alt="Bowl of salad" />
+          </figure>
+          <div class="recipe-full-title">
+            <p>Strawberry Cheese Salad</p>
+          </div>
+        </div>
+
+        <!-- B5 -->
+        <div class="recipe-box-titles">
+          <div class="recipe-sml">
+            <p>Thai Shrimp Salad</p>
+          </div>
+          <div class="recipe-sml">
+            <p>Veggie Couscous Pizza</p>
+          </div>
+          <div class="recipe-sml">
+            <p>Chicken Sesame Bowl</p>
+          </div>
+        </div>
+
+        <!-- B6 -->
+        <div class="recipe-box-full">
+          <figure class="recipe-img">
+            <img src="img/recipes/curry.jpg" alt="Tofu Curry with rice" />
+          </figure>
+          <div class="recipe-full-title">
+            <p>Indian Tofu Curry</p>
+          </div>
+        </div>
+
+        <!-- B7 -->
+        <div class="recipe-box-full">
+          <figure class="recipe-img">
+            <img
+              src="img/recipes/pasta.jpg"
+              alt="Pasta with mushrooms and spinach"
+            />
+          </figure>
+          <div class="recipe-full-title">
+            <p><span>Gluten-free </span>Mushroom Pasta</p>
+          </div>
+        </div>
+
+        <!-- B8 -->
+        <div class="recipe-box-full">
+          <figure class="recipe-img">
+            <img src="img/recipes/tacos.jpg" alt="Tacos" />
+          </figure>
+          <div class="recipe-full-title">
+            <p>Vegetarian Spanish Tacos</p>
+          </div>
+        </div>
+
+        <!-- B9 -->
+        <div class="recipe-box-titles">
+          <div class="recipe-sml">
+            <p>Poppyseed Raspberry Cake</p>
+          </div>
+          <div class="recipe-sml">
+            <p>Watermelon Mochitos</p>
+          </div>
+
+          <a class="link link-bigger" href="#">See more</a>
+        </div>
+        <a class="link link-bigger mobile-fix" href="#">See more</a>
+      </div>
+    </section>
+
+    <!-- SECTION CTA -->
+    <section class="section-cta container">
+      <h2 class="heading-secondary">Made For You</h2>
+      <div class="grid grid--2-cols">
+        <!-- SUB CTA COL -->
+        <div class="sub-cta-col">
+          <figure class="sub-cta-img">
+            <img src="img/cta.jpg" alt="Person eating salmon" />
+          </figure>
+          <div class="sub-cta-box">
+            <h4 class="heading-quart">
+              For <span>your</span> Health & Happiness
+            </h4>
+            <p class="sub-cta-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+              nobis perferendis, nesciunt est voluptatibus neque ex porro iusto
+              odit vero nostrum adipisci ipsum error itaque totam autem.
+              Reprehenderit, accusamus enim. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+            <ul class="sub-cta-list">
+              <li>
+                <img
+                  class="icon-list"
+                  src="icons/icon-check.svg"
+                  alt="Icon Checkmark"
+                />
+                <p>Weekly Personalized Meal Plans</p>
+              </li>
+              <li>
+                <img
+                  class="icon-list"
+                  src="icons/icon-check.svg"
+                  alt="Icon Checkmark"
+                />
+                <p>Free Grub Garden Account</p>
+              </li>
+              <li>
+                <img
+                  class="icon-list"
+                  src="icons/icon-check.svg"
+                  alt="Icon Checkmark"
+                />
+                <p>Exclusive Offers On Cooking Classes</p>
+              </li>
+              <li>
+                <img
+                  class="icon-list"
+                  src="icons/icon-check.svg"
+                  alt="Icon Checkmark"
+                />
+                <p>Cancel Anytime</p>
+              </li>
+            </ul>
+            <p class="post-date">
+              Only <span class="number">29,99 </span>EUR / month
+            </p>
+            <button class="btn btn-cta mrg-right">Start Cooking</button>
+            <button class="btn btn-cta btn-light">Learn More</button>
+          </div>
+        </div>
+
+        <!-- Classes Col -->
+        <div class="classes-col">
+          <h4 class="heading-quart">Excited to Learn More?</h4>
+          <p class="sub-cta-text">
+            Unlock new skills with our online cooking classes! The courses range
+            from beginner's level to fine tuning your techniques, there's
+            something for everybody! Wether you're looking for trying out new
+            cuisines or becoming an expert baker, we have the right course for
+            you! Invite your friends, partner and kids to join in and enjoy your
+            self-made healthy meal together!
+          </p>
+          <ul class="sub-cta-list">
+            <li>
+              <img
+                class="icon-list"
+                src="icons/icon-check.svg"
+                alt="Icon Checkmark"
+              />
+              <p>Learn From A First Class Chef</p>
+            </li>
+            <li>
+              <img
+                class="icon-list"
+                src="icons/icon-check.svg"
+                alt="Icon Checkmark"
+              />
+              <p>Cook Healthy and Seasonal Meals</p>
+            </li>
+            <li>
+              <img
+                class="icon-list"
+                src="icons/icon-check.svg"
+                alt="Icon Checkmark"
+              />
+              <p>Plus One Adult & Kids For Free</p>
+            </li>
+            <li>
+              <img
+                class="icon-list"
+                src="icons/icon-check.svg"
+                alt="Icon Checkmark"
+              />
+              <p>Lifelong Access Through Grub Garden Account</p>
+            </li>
+            <li>
+              <img
+                class="icon-list"
+                src="icons/icon-check.svg"
+                alt="Icon Checkmark"
+              />
+              <p>Downloadable Recipes</p>
+            </li>
+          </ul>
+          <p class="upcoming-title">Upcoming Courses</p>
+          <div class="upcoming-box">
+            <ul class="dates-list">
+              <li><p>12th September</p></li>
+              <li><p>9th October</p></li>
+              <li><p>21th November</p></li>
+              <li><p>5th December</p></li>
+              <li><p>11th January</p></li>
+            </ul>
+            <ul class="classes-list">
+              <li><p>Cocina Espanola - Traditional Spanish Food</p></li>
+              <li><p>Welcome Autumn Into Your Kitchen!</p></li>
+              <li><p>Christmas Cookies With Your Kids</p></li>
+              <li><p>Vegetarian Christmas Dinner</p></li>
+              <li><p>Stay Fit During Winter</p></li>
+            </ul>
+          </div>
+          <!-- Include table of upcoming events -->
+          <button class="btn btn-cta btn-light">All Classes</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION TESTIMONIALS -->
+    <section class="section-testimonials container">
+      <div class="grid grid--4-cols">
+        <!-- Test 1 -->
+        <blockquote class="testimonial">
+          <figure class="test-person">
+            <img src="img/faces/face-1.jpg" alt="Young man with glasses" />
+          </figure>
+          <div class="test-text-box">
+            <p class="test-title">Subscription</p>
+            <p class="test-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              aliquam expedita exercitationem repellat.
+            </p>
+            <p class="test-date">11th Jun 2023</p>
+          </div>
+        </blockquote>
+
+        <!-- Test 2 -->
+        <blockquote class="testimonial">
+          <figure class="test-person">
+            <img src="img/faces/face-2.jpg" alt="Young woman with braids" />
+          </figure>
+          <div class="test-text-box">
+            <p class="test-title">Cooking Class</p>
+            <p class="test-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              aliquam expedita exercitationem repellat.
+            </p>
+            <p class="test-date">12th Sep 2023</p>
+          </div>
+        </blockquote>
+
+        <!-- Test 3 -->
+        <blockquote class="testimonial">
+          <figure class="test-person">
+            <img src="img/faces/face-3.jpg" alt="Young man with mustache" />
+          </figure>
+          <div class="test-text-box">
+            <p class="test-title">Subscription</p>
+            <p class="test-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              aliquam expedita exercitationem repellat.
+            </p>
+            <p class="test-date">14th Aug 2023</p>
+          </div>
+        </blockquote>
+
+        <!-- Test 4 -->
+        <blockquote class="testimonial">
+          <figure class="test-person">
+            <img src="img/faces/face-4.jpg" alt="Laughing young woman" />
+          </figure>
+          <div class="test-text-box">
+            <p class="test-title">Cooking Class</p>
+            <p class="test-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+              aliquam expedita exercitationem repellat.
+            </p>
+            <p class="test-date">16th Apr 2023</p>
+          </div>
+        </blockquote>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container grid grid--3-cols">
+        <!-- Food Nav -->
+        <div class="food-nav-col">
+          <h3 class="heading-tertiary">Menu</h3>
+          <ul class="footer-nav-list">
+            <li><a class="footer-link" href="#">Diets</a></li>
+            <li><a class="footer-link" href="#">Meals</a></li>
+            <li><a class="footer-link" href="#">Cook By Culture</a></li>
+            <li><a class="footer-link" href="#">Kitchen Hacks</a></li>
+          </ul>
+
+          <h3 class="heading-tertiary">Account</h3>
+          <ul class="footer-nav-list">
+            <li><a class="footer-link" href="#">Subscription</a></li>
+            <li><a class="footer-link" href="#">Cooking Classes</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+          </ul>
+        </div>
+
+        <!-- Company Nav -->
+        <div class="company-nav-col">
+          <h3 class="heading-tertiary">Company</h3>
+          <ul class="footer-nav-list">
+            <li><a class="footer-link" href="#">About</a></li>
+            <li><a class="footer-link" href="#">Contact</a></li>
+            <li><a class="footer-link" href="#">Partner With Us</a></li>
+            <li><a class="footer-link" href="#">Privacy & Terms</a></li>
+          </ul>
+
+          <div class="other-brand">
+            <p>Partner brand:</p>
+            <figure class="other-logo">
+              <img src="img/logo/logo-other-brand.png" alt="Logo Body Bloom" />
+            </figure>
+          </div>
+          <div class="social-logo-box">
+            <img
+              class="social-icon"
+              src="icons/icon-instagram.svg"
+              alt="Icon Instagram"
+            />
+            <img
+              class="social-icon"
+              src="icons/icon-tiktok.svg"
+              alt="Icon Tiktok"
+            />
+            <img
+              class="social-icon"
+              src="icons/icon-twitter.svg"
+              alt="Icon Twitter"
+            />
+          </div>
+        </div>
+
+        <div class="social-nav">
+          <div class="footer-cta">
+            <p class="footer-cta-heading">Stay inspired!</p>
+            <p class="footer-cta-text">
+              Get the hottest new recipes, kitchen tipps & tricks and seasonal
+              trends delivered into your inbox!
+              <span>100% Free. Cancel anytime.</span>
+            </p>
+            <form class="footer-cta-box">
+              <input
+                class="intro-cta"
+                type="email"
+                placeholder="Your Email"
+                required
+                autocomplete="email"
+              />
+              <button class="btn btn-cta mrg-top">Subscribe</button>
+            </form>
+            <p class="intro-legal">
+              By signing up, you agree to our
+              <a href="#">Terms of Service</a> and
+              <a href="#">Privacy Policy</a>.
+            </p>
+          </div>
+
+          <div class="footer-logo-box">
+            <a class="logo-link" href="#"
+              ><img class="logo" src="img/logo/logo.png" alt="Grub Garden Logo"
+            /></a>
+            <p class="copyright">
+              Copyright &copy; <span class="year">2023</span> by Grub Garden
+              Inc. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

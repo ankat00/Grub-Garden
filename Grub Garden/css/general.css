@@ -1,0 +1,263 @@
+/*
+
+Spacing System (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+--- 01 TYPOGRAPHY
+
+- Font Size System (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+Default: 1.6rem
+h1: 3.2rem
+h2: 2rem
+h3: 2.4rem
+h4: 2rem
+
+- Font Weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+1.5
+
+--- 02 COLORS
+
+- Text: #272a21 #f4f0e4 #757064;
+- Primary: #e9e0c8
+- Tints: #f6f3e9 #fefefc
+- Shades:
+- Accents: #a8af91 #e5e7de #495749 #3a463a
+
+--- 05 SHADOWS
+default: 0 1.2rem 2.4rem rgba(73, 87, 73, 0.08);
+
+--- 06 BORDER RADIUS
+default: 3px
+
+--- 07 ANIMATION TIME
+default: 0.3s
+*/
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-VariableFont_wdth_wght.ttf);
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Zeyada";
+  src: url(../fonts/Zeyada-Regular.ttf);
+}
+
+/* //////////// //////////// //////////// */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* overflow-x: hidden;
+  scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Lora", serif;
+  line-height: 1;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #272a21;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 4.8rem;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.6rem rgba(117, 112, 100, 0.8);
+}
+
+/* ***************** */
+/* REUSABLE GRID */
+/* ***************** */
+.grid {
+  display: grid;
+  column-gap: 2.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* ***************** */
+/* HEADINGS */
+/* ***************** */
+.heading-primary {
+  font-family: "Lora", serif;
+  font-size: 3.2rem;
+  color: #495749;
+  font-weight: 500;
+}
+
+.heading-primary span {
+  font-family: "Zeyada";
+  font-size: 7.4rem;
+  font-style: italic;
+  padding-right: 0.8rem;
+  color: #272a21;
+  font-weight: 600;
+}
+
+.heading-secondary {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 1.3px;
+  word-spacing: 1.5px;
+  margin-bottom: 1.6rem;
+}
+
+.heading-tertiary {
+  font-family: "Lora", serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+  line-height: 1.2;
+}
+
+.heading-quart {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.3px;
+}
+
+/* ***************** */
+/* LINKS */
+/* ***************** */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-cta {
+  font-family: "Lora", serif;
+  color: #f4f0e4;
+  font-size: 1.8rem;
+  background-color: #495749;
+  padding: 0.8rem 1.2rem;
+  border-radius: 3px;
+
+  transition: all 0.3s;
+}
+
+.btn-cta:hover {
+  background-color: #3a463a;
+}
+
+.btn-light {
+  color: #495749;
+  background-color: #f6f3e9;
+}
+
+.btn-light:hover {
+  background: none;
+  box-shadow: 0 1.2rem 2.4rem rgba(73, 87, 73, 0.1);
+}
+
+a:link,
+a:visited {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  color: #272a21;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: 1px underline currentColor;
+  text-underline-offset: 5px;
+}
+
+.newsletter-cta-link:link,
+.newsletter-cta-link:visited {
+  font-size: 1.4rem;
+  color: #f4f0e4;
+  text-decoration: 1px underline currentColor;
+  text-underline-offset: 5px;
+}
+
+.newsletter-cta-link:hover,
+.newsletter-cta-link:active {
+  text-decoration: none;
+}
+
+.link:link,
+.link:visited {
+  font-family: "Lora";
+  font-size: 1.4rem;
+  text-decoration: 1px underline currentColor;
+  text-underline-offset: 5px;
+}
+
+.link:hover,
+.link:active {
+  text-decoration: none;
+}
+
+/* ***************** */
+/* HELPER CLASSES / EXTRAS */
+/* ***************** */
+ul {
+  list-style: none;
+}
+
+input {
+  font-family: "Lora", serif;
+  color: #272a21;
+  font-weight: 500;
+}
+
+input::placeholder {
+  color: #757064;
+  letter-spacing: 1px;
+}
+
+.link-bigger:link,
+.link-bigger:visited {
+  font-size: 1.6rem;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.mrg-right {
+  margin-right: 1.2rem;
+}
+
+.mrg-top {
+  margin-top: 0.8rem;
+  margin-bottom: 1.2rem;
+}
